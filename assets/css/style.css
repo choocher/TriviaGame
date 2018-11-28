@@ -1,0 +1,81 @@
+
+body {
+    height: 65%;
+  }
+
+  body {
+    text-align: center;
+    background-image: url("../images/80s_wallpaper_background.jpg");
+    color: lightseagreen;
+  }
+
+  #wrapper {
+    width: 960px;
+    min-height: 25%;
+    box-sizing: border-box;
+    padding: 5% 0;
+    margin: 5% auto;
+    background-color:rgb(166, 33, 187);
+  }
+
+  #sub-wrapper {
+    position: relative;
+    top: 20%;
+  }
+
+  button {
+    display: block;
+    width: 400px;
+    height: 75px;
+    margin: 10px auto 0;
+    font-size: 42px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+  }
+
+  h1 {
+    margin-bottom: 50px;
+    font-family: 'Monoton', cursive;
+    font-size: 5.5em;
+    text-overflow: inherit;
+    font-weight: regular;
+    color: white;
+    width: 80%;
+    border: 2px solid white;
+    padding: .25em;
+    margin: 2px auto 0;
+  }
+
+  h2 {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 35px;
+  }
+
+  h3 {
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+
+  #start {
+    margin-top: 10%;
+    background: blue;
+    border: 2px solid black;
+    color: white;
+  }
+
+  #quiz-area h2 {
+    margin-top: 50px;
+    background: blue;
+  }
+
+  button:hover {
+    background: lightseagreen;
+    border: 2px solid white;
+    color: white;
+  }
+
+  .correct-answer-image {
+    height: 400px;
+  }
